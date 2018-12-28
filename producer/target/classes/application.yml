@@ -1,0 +1,9 @@
+server:
+  port: 9900
+rbmq:
+  rabbitmq:
+    host: 192.168.20.151
+    port: 5672
+    virtual-host: /asso
+    username: asso
+    password: asso

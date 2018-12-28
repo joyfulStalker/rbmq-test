@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq",
+      "type": "cn.lsl.rbmq.properties.RbmqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq.host",
+      "description": "mq地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq.password",
+      "description": "登录密码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq.port",
+      "description": "mq端口",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq.username",
+      "description": "登录名",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.lsl.rbmq.properties.RbmqProperties",
+      "name": "rbmq.rabbitmq.virtual-host",
+      "description": "虚拟主机名称",
+      "type": "java.lang.String"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.lsl.rbmq.init.RbmqInit,\
+cn.lsl.rbmq.api.RbmqSender

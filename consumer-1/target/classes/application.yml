@@ -1,0 +1,13 @@
+server:
+  port: 9901
+spring:
+  rabbitmq:
+    host: 192.168.20.151
+    virtual-host: /asso
+    port: 5672
+    username: asso
+    password: asso
+    publisher-confirms: true
+    listener:
+      simple:
+        acknowledge-mode: manual
